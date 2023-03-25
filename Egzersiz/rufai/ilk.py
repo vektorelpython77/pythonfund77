@@ -1,0 +1,1 @@
+print("merhaba benim adim rufai soyadim karatas")
