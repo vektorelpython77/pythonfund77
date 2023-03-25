@@ -1,3 +1,2 @@
-print("merhaba dünya")
-print("python programlama dili öğrenmek istiyorum")
-print("python proglamlama dili öğrenmek")
+isim =input("isminizi giriniz: ")
+print("merhaba", isim)

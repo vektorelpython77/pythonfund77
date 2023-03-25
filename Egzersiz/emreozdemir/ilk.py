@@ -1,1 +1,2 @@
-print("Merhaba")
+yas=int(input('Yaşınızı giriniz.'))
+
