@@ -3,3 +3,5 @@ filename = "ilk"
 liste = os.listdir("Egzersiz/")
 for item in liste:
     open(f"Egzersiz/{item}/{filename}.py","a+")
+        
+        
