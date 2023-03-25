@@ -1,2 +1,2 @@
-print("Merhaba")
-print("amet")
+Yaş=input("Adınızı Giriniz:")
+print("yaşınız",Yaş)

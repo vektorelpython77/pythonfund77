@@ -1,3 +1,2 @@
-print("merhaba")
-print("mustafa,"kemal","atatürk")
-print("gamze"\n"levent")
+renk = input("sevdigin renk")
+print("sevdigin renk",renk)
