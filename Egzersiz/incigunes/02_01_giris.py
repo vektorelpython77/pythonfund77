@@ -1,1 +1,9 @@
-var1=
+var1 = 5
+var2 = 5.2
+var3 = 8.7 + 4.0j
+var4 = "inci"
+var5 = [3,2.0,7.0j,"inci"]
+var6 = (4,8.0,"inci")
+var7 = {"7":"yedi","9":"dokuz"}
+var8 = (1,2,3,4)
+var9 = False 

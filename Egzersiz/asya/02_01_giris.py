@@ -1,0 +1,9 @@
+var1 = 5
+var2 = 5.0
+var3 = 5.0 + 5.0j 
+var4 = "asya"
+var5 = [5,5.1,5,1,5,1j,asya]
+var6 = (5,5.0,asya)
+var7 = {"7":"yedi","2":"iki"}
+var8 =  {1,2,3,4}
+var9 = false
