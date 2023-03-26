@@ -1,2 +1,2 @@
 yas=int(input('Yaşınızı giriniz.'))
-print("Yaşınız",yas)
+print(id(yas))
