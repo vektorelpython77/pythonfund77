@@ -1,11 +1,10 @@
-var1 = "asyanur"
-#       0123456
-print(var1[:2]
-print(var1[-2:
 
+"""
+    isim = input("İsminizi Giriniz:")
+    soyisim = input("Soyisminizi Giriniz:)
+    var1 = ?"{????}",?"{???????}","Ankara","555"
+    print(";".????.(?????))
 
-
-
-
-var1 = "tesekkurler supermen"
-print(var1.repl
+    yukarıdaki kod parçacığı içerisindeki ? ile gösterilen alanları uygun bilgilerle
+    doldurunuz
+"""

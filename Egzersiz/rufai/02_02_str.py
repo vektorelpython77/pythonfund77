@@ -1,7 +1,10 @@
-# metin=input("Lutfen bir isim giriniz:")
 
-# print(metin[:2])
-# print(metin[-2:])
+"""
+    isim = input("İsminizi Giriniz:")
+    soyisim = input("Soyisminizi Giriniz:)
+    var1 = ?"{????}",?"{???????}","Ankara","555"
+    print(";".join.(?????))
 
-var1 = "Teşekkürler Süpermen"
-print(var1.replace("e","i").replace("i", "e",3))
+    yukarıdaki kod parçacığı içerisindeki ? ile gösterilen alanları uygun bilgilerle
+    doldurunuz
+"""

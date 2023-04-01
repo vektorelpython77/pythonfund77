@@ -1,4 +1,10 @@
 
-var3="Teşekkürler Süpermen"
-var3=var3[::-1].replace("e","i",2)[::-1]
-print(var3)
+"""
+    isim = input("İsminizi Giriniz:")
+    soyisim = input("Soyisminizi Giriniz:)
+    var1 = ?"{????}",?"{???????}","Ankara","555"
+    print(";".????.(?????))
+
+    yukarıdaki kod parçacığı içerisindeki ? ile gösterilen alanları uygun bilgilerle
+    doldurunuz
+"""
