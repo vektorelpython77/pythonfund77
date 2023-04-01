@@ -15,3 +15,5 @@ var1 =f"{isim}",f"{soyisim}","Ankara","555"
 print(";".join(var1))
 
 isim = input("İsminizi giriniz: ")
+soyisim = input("soyisminizi giriniz: ")
+var1 = f"{isim}","{soyisim}", 

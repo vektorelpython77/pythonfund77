@@ -12,3 +12,4 @@ isim = input("İsminizi Giriniz:")
 soyisim = input("Soyisminizi Giriniz:")
 var1=f"{isim}",f"{soyisim}","Ankara","555"
 print(";".join(var1))
+ 
