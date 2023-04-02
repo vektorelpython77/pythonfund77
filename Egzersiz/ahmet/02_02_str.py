@@ -11,7 +11,14 @@
 
 isim = input("İsminizi Giriniz:")
 soyisim = input("soyisminizi giriniz:")
-var1=f"{isim}",f"{soyisim}","ankara","555"
+x=input("şehrinizi giriniz:")
+y=input("yaşınızı giriniz")
+var1=f"{isim}",f"{soyisim}", y ,x
 print(";".join(var1))
+
+"""""
+
+liste = ["Red","Green","white","Pink","Yellow"]
+liste.pop ("Red")
 
 

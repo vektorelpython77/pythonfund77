@@ -1,10 +1,5 @@
-import os
-filename = "02_03_list"
-liste = os.listdir("Egzersiz/")
-for item in liste:
-    with open(f"Egzersiz/{item}/{filename}.py","w+") as dosya:
-        metin = """
-\"\"\"
+
+"""
 Egzersiz_1
 1. Soru
 liste = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
@@ -24,7 +19,5 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
     c. listedeki en küçük sayıyı yazdırınız (araştırma)
     d. listedeki sayıların toplamını yazdırınız (araştırma)
 
-\"\"\"
 """
-        dosya.write(metin)
-# TODO veri tabanı bağlantrısı eklenecek 
+liste = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']

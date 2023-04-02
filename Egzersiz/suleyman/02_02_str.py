@@ -12,3 +12,6 @@ isim = input("İsminizi Giriniz:")
 soyisim = input("soyisminizi giriniz:")
 var1=f"{isim}",f"{soyisim}","ankara","555"
 print(";".join(var1))
+
+liste=["Red","Green","white","Black","Pink","Yellow"]
+del liste[0,4,5]
