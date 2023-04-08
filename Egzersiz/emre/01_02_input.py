@@ -1,3 +1,6 @@
 x=input("A")
 y=input("s")
-var1="Hoşgeldiniz Sayın"
+print(var1)
+print(var1)
+var1= f"{x},{y}"
+print(var1)

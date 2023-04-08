@@ -41,5 +41,3 @@ print(liste1)
 liste3 = [12,2,2,2,3,3,3,1,1,1,2,2]
 print(len(liste3))
 print(max(liste3))
-print(min(liste3))
-print(sum(liste3))
