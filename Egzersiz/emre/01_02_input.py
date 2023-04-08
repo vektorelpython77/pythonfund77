@@ -1,2 +1,3 @@
-yas=int(input('Yaşınızı giriniz.'))
-print(id(yas))
+x=input("A")
+y=input("s")
+var1="Hoşgeldiniz Sayın"
