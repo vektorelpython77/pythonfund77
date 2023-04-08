@@ -21,4 +21,42 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
 
 """
 
-liste = 
+liste = ['red','green','white','black','pink','yellow']
+#         0       1       2       3       4       5
+del  liste[0]
+print(liste)
+del  liste[4]
+print(liste)
+del  liste[3]
+print(liste)
+
+
+
+
+liste = [25,41,52,63,85,74]
+#         0  1  2  3  4  5
+liste.append(3969)
+liste.append(5476)
+print(liste)
+
+liste[2] = 2704
+liste[4] = 7225
+print(liste)
+
+del  liste[1]
+print(liste)
+
+liste2 = [456,789,234]
+liste.extend(liste2)
+print(liste)
+
+
+liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+print(len(liste))
+print(max(liste))
+print(min(liste))
+print(sum(liste))
+
+
+
+

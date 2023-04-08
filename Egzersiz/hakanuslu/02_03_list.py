@@ -20,3 +20,31 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
     d. listedeki sayıların toplamını yazdırınız (araştırma)
 
 """
+liste = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+liste.pop(0)
+liste.pop(4)
+liste.pop(5)
+print(liste)
+
+liste = [25,41,52,63,85,74]
+liste.append([-1],**2)
+liste.append([-3],**2)
+print(liste)
+
+liste[1]=liste[1]**2
+liste[3]=liste[3]**2
+prin
+
+liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+eleman_sayısı=len(liste)
+print(eleman_sayısı)
+
+
+liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+en_kucuk = min(liste)
+en_buyuk = max(liste)
+print("Liste İçindeki En Büyük Sayı :", en_buyuk, "\nListe İçindeki En Büyük Sayı :",en_kucuk)
+
+liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+toplam = sum(liste)
+print(toplam)

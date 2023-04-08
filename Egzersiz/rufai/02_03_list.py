@@ -20,4 +20,60 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
     d. listedeki sayıların toplamını yazdırınız (araştırma)
 
 """
-liste = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+#1.soru
+
+#liste = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+#del liste[0]
+#del liste[4]
+#liste.pop()
+#print((liste))
+
+#2. sorunun 1. maddesi
+
+# liste1 = [25,41,52,63,85,74]
+# a=63**2
+# b=85*85
+# liste2 = [a,b]
+# liste3 = liste1+liste2
+# print(liste3)
+
+#2. sorunun 2.maddesi
+
+#liste = [25,41,52,63,85,74]
+#liste[2] = 2704
+#liste[4] = 7225
+#print(liste)
+
+#2.sorunun 3.maddesi
+
+# liste = [25,41,52,63,85,74]
+# del liste[0]
+# print(liste)
+
+#2.sorunun 4.maddesi
+
+# liste = [25,41,52,63,85,74]
+# liste2 = [456,789,234]
+# liste.extend(liste2)
+# print(liste)
+
+#3.sorunun 1.maddesi
+
+# liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+# print("Listenin uzunlugu:",len(liste))
+
+#3.sorunun 2. ve 3.maddesi
+
+# liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+# print("Listenin icerisindeki en buyuk sayi:",max(liste))
+# print("Listenin icerisindeki en kucuk sayi:",min(liste))
+
+#3.sorunun 4. maddesi
+
+# liste = [12,2,2,2,3,3,3,1,1,1,2,2]
+# print("Listenin icerisindeki sayilarin toplami:",sum(liste))
+
+
+
+
+

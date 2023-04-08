@@ -21,3 +21,36 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
 
 """
 # 1. soru:
+liste=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+x=print(liste[1:4])
+
+
+
+#2.soru
+
+liste2 = [25,41,52,63,85,74]
+(liste2[3])
+(liste2[5])
+
+(liste2.append(3969))
+
+(liste2.append(5476))
+print(liste2)
+
+liste2[2]=2704
+liste2[4]=7225
+print(liste2)
+
+(liste2.remove(25))
+print(liste2)
+
+# 3
+ph= [12,2,2,2,3,3,3,1,1,1,2,2]
+print(len(ph))
+
+print(max(ph))
+print(min(ph))
+print(sum(ph))
+
+
+print("/".join(ph))

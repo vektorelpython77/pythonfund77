@@ -8,10 +8,10 @@
     yukarıdaki kod parçacığı içerisindeki ? ile gösterilen alanları uygun bilgilerle
     doldurunuz
 """
-isim=input('İsim giriniz.')
-soyisim = input("Soyisminizi Giriniz")
-var1=f"{isim} {soyisim}","Ankara","55"
+isim = input("İsminizi Giriniz:")
+soyisim = input("soyisminizi giriniz:")
+var1=f"{isim}",f"{soyisim}","ankara","555"
 print(";".join(var1))
 
-var2="Ankara","Muklulk"
-print("/".join(var2))
+liste=["Red","Green","white","Black","Pink","Yellow"]
+del liste[0,4,5]
