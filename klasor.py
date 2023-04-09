@@ -1,23 +1,16 @@
 import os
-filename = "02_06_set"
+filename = "03_01_ifelse"
 liste = os.listdir("Egzersiz/")
 for item in liste:
     with open(f"Egzersiz/{item}/{filename}.py","w+",encoding="UTF-8") as dosya:
-        metin = """
-\"\"\"
-import random as rnd
-rnd.seed(0)
-liste1 = [rnd.randint(1,50) for i in range(20)]
-liste2 = [rnd.randint(1,50) for i in range(20)]
-##################################################
-yukarıdaki listelerden faydalanarak 
-iki liste arasındaki farkı ve ortak sayıları bulan 
-python kodunu yazınız
+        metin = 
 
-\"\"\"
-"""
+iki açısı girilmiş olan
+bir üçgenin tipini tespit eden programı yazınız
+
+
         dosya.write(metin)
-# TODO veri tabanı bağlantrısı eklenecek 
+# TODO veri tabanı bağlantrısı
 
 
 # https://codeshare.io/eVn8ml
