@@ -18,3 +18,15 @@ küme1 = liste1
 küme2 = liste2
 print(küme1.difference(küme2))
 print(küme1.intersection(küme2))
+
+
+ yas = input("Yaşınızı Giriniz:")
+ if yas and yas.isdigit():
+     yas = int(yas)
+     if yas > 12:
+         print("Oyun Oynayabilir")
+     else:
+         print("Oyun Oynayamaz")
+     print("Giriş Yapıldı")
+ else:
+         print("Giriş Yapmalısınız ya da Değer Hatası") 
