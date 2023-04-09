@@ -18,3 +18,4 @@ elif aci1!=aci2 and aci2!=aci3:
     print("Bu cesitkenardir.Bu ucgenin 3. acisi = ",aci3)
 else: #aci1==aci2 and aci1==aci3:
     print("Bu ucgen eskenardir.Her kenar 60 derecedir.")
+

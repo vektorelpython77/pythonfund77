@@ -3,18 +3,20 @@
 iki açısı girilmiş olan
 bir üçgenin tipini tespit eden programı yazınız
 """
-a=(input("1. açıyı giriniz."))
-b=(input("2. açıyı giriniz."))
-c=180-(a+b)
+x=(input("1. açıyı giriniz."))
+y=(input("2. açıyı giriniz."))
+k=180-(x+y)
 if acibir and acibir.isdigit() and aciiki and aciiki.isdigit():
- acibir=int(acibir)
- b=int(aciiki)
 
-if(a == b== c== 60):
+
+    x=int(x)
+    y=int(y)
+
+if(x == y== k== 60):
     print("Eşkenardır")
-elif(a==b or a==b or a==b):
+elif(x==y or x==y or x==y):
     print("İkizkenar Üçgendir")
-elif(c>90):
+elif(k>90):
     print("Geniş kenar üçgen")
 else:
     print("girdiginiz deger yanlıs.")

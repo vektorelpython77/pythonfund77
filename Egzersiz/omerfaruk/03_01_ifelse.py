@@ -14,5 +14,5 @@ if aci1 and aci1.isdigit() and aci2 and aci2.isdigit():
 
 aci3=180-(aci1+aci2)
 
-if aci1==aci2 and aci1>aci3 or aci1==aci2 and aci<aci3:
+if aci1==aci2 and aci1>aci3 or aci1==aci2 and aci1<aci3:
     print("bu üçgen ikizkenardır.üçüncü acisi =", aci3)
