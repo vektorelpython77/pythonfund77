@@ -18,3 +18,6 @@ python kodunu yazınız
 """
         dosya.write(metin)
 # TODO veri tabanı bağlantrısı eklenecek 
+
+
+# https://codeshare.io/eVn8ml
