@@ -70,7 +70,7 @@ Notlar:
 55-69 CC
 """
 ##########################
-_not = input("Notunuzu Giriniz:")
+_not = input("Notunuzu Giriniz")
 # _not = 75
 if _not and _not.isdigit():
     _not = int(_not)
