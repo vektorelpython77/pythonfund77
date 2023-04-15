@@ -14,3 +14,13 @@ istenilen sayıda sayısal loto kolonu oynayan python kodunu
 yazınız
 ipucu while ve for döngüleri birlikte kullanılmaktadır. 
 """
+
+from random import randint
+liste = []
+for i in range(1,7):
+    sayi = randint(1,49)
+    while sayi in liste:
+        sayi = randint(1,49)
+    liste.append(sayi)
+else:
+    print(*liste)
