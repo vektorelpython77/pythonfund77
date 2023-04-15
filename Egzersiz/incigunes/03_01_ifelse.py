@@ -15,5 +15,16 @@ aci3=180-(aci1+aci2)
 if aci1==aci2 and aci1>aci3 or aci1==
 
 
+print(*liste)
+# for item in liste:
+#     print(item,end=" "
+
+liste = []
+for i in range(1,151):
+    if i % 15 == 0:
+        liste.append(i)
+print(*liste)      
+
+
 
 
