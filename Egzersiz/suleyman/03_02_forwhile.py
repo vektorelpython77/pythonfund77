@@ -24,3 +24,9 @@ for i in range(1,7):
     liste.append(sayi)
 else:
     print(*liste)
+
+num = [int(x) for x in input("Lütfen bir sayı giriniz: ")]
+size = len(num) - 1
+
+for i, num in enumerate(num):
+    print((num * (10**(size - i))//10**(size - i)), end="\n")

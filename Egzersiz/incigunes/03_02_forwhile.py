@@ -14,7 +14,16 @@ istenilen sayıda sayısal loto kolonu oynayan python kodunu
 yazınız
 ipucu while ve for döngüleri birlikte kullanılmaktadır. 
 """
-import random
+#import random
 
-for i in range(1,7):
-    print(random.randint(1,49))
+#for i in range(1,7):
+#   print(random.randint(1,49))
+
+
+
+num = [int(x) for x in input("Lütfen bir sayı giriniz: ")]
+size = len(num) - 1
+
+for i, num in enumerate(num):
+    print((num * (10**(size - i))//10**(size - i)), end="\n")
+

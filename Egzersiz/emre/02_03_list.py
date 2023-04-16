@@ -23,7 +23,7 @@ liste = [12,2,2,2,3,3,3,1,1,1,2,2]
 # 1. soru:
 liste=['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
 x=print(liste[1:4])
-
+print(x.pop(0))
 
 
 #2.soru
