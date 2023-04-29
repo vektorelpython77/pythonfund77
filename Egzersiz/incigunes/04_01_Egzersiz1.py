@@ -9,4 +9,3 @@ yukarıdaki kod bloğundan faydalanarak 4 işlem için birbirinden farklı 4
 fonksiyon yazınız
 """
 
-def 

@@ -33,4 +33,12 @@ fonk([parametre])
 ################## 4
 def toplam(a,b):
     print(a+b)
-toplam(3,4)
+
+def carpma(a,b):
+    print(a*b)
+
+def cikarma(a,b):
+    print(a-b)
+    
+def bolme(a,b):
+    print(a/b)

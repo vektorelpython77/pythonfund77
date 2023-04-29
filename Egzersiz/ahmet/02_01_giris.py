@@ -1,1 +1,0 @@
-input("bir metin yazınız")
