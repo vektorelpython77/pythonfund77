@@ -13,3 +13,4 @@ Kurallar http://www.kodaman.org/yazi/t-c-kimlik-no-algoritmasi adresinden alınm
 """
 tcno = "10000000146"
 # tcno = input("TC Kimlik Numaranızı Giriniz:")
+

@@ -1,5 +1,4 @@
 
-tr_harfler = "şçöğüİı"
-
-for harf in tr_harfler:
-    print(harf)
+tcno='1242455'
+x=list(tcno)
+print(int(sum(x)))

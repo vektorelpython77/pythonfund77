@@ -14,3 +14,30 @@ Kurallar http://www.kodaman.org/yazi/t-c-kimlik-no-algoritmasi adresinden alınm
 tcno = "10000000146"
 # tcno = input("TC Kimlik Numaranızı Giriniz:")
 
+def  isValidTCID(value):
+    value = str(10000000146)
+    
+    if not len(value) == 11:
+        return False
+    
+
+    if not value.isdigit():
+        return False
+    
+
+    if int(value[0]) == 0:
+        return False
+    
+    digits = [int(d) for d in str(value)]
+    
+
+    if not sum(digits[:10]) % 10 == digits[10]:
+        return False
+    
+
+    if not (((7 * sum(digits[:9][-1::-2])) - sum(digits[:9][-2::-2])) % 10) == digits[9]:
+        return False
+    
+    
+    
+ 

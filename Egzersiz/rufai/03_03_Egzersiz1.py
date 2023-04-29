@@ -12,5 +12,4 @@ Kurallar:
 Kurallar http://www.kodaman.org/yazi/t-c-kimlik-no-algoritmasi adresinden alınmıştır.
 """
 tcno = "10000000146"
-# tcno = input("TC Kimlik Numaranızı Giriniz:")
-tcno.index(sub)
+
