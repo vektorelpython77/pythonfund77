@@ -17,3 +17,21 @@ e posta adresi girilmesi gerekmediği durumda kullanıcı
 fonk("Ornek","Ornek") şeklinde fonksiyonu çalıştırabilsin.
 """
 
+def bilgi(adi,soyadi,eposta=""):
+    print(f"""
+    ########################
+    Adı : {adi}
+    Soyadı : {soyadi}
+    E-Posta : {eposta if eposta else "E Posta Yok"} 
+    ########################
+    """)
+
+    #   if eposta:
+    #     print(eposta)
+    #   else:
+    #     print("E Posta Yok")
+    ###########################
+    ##  eposta if eposta else "E Posta Yok"
+
+bilgi("İbrahim","EDİZ","edizdesign@gmail.com")
+bilgi("İbrahim","EDİZ",)

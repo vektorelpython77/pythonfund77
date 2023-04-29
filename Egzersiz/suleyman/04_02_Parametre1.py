@@ -16,4 +16,6 @@ E-Posta : ornek@ornek.com
 e posta adresi girilmesi gerekmediği durumda kullanıcı 
 fonk("Ornek","Ornek") şeklinde fonksiyonu çalıştırabilsin.
 """
-
+def bilgi(adi,soyadi,eposta=""):
+    print(f"{adi}, {soyadi}, {eposta}")
+bilgi("suleyman","demir","suleyman.demir@gmail.com")

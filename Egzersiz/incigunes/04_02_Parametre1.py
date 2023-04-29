@@ -17,3 +17,7 @@ e posta adresi girilmesi gerekmediği durumda kullanıcı
 fonk("Ornek","Ornek") şeklinde fonksiyonu çalıştırabilsin.
 """
 
+
+
+
+

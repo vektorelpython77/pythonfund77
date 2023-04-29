@@ -1,25 +1,16 @@
 import os
-filename = "04_02_Parametre1"
+filename = "04_03_return1"
 liste = os.listdir("Egzersiz/")
 for item in liste:
     with open(f"Egzersiz/{item}/{filename}.py","w+",encoding="UTF-8") as dosya:
         metin = """
 \"\"\"
 
-def topla(a,b,c=0):
-    print(a+b+c)
-
-yukarıda yer alan örnekten faydalanarak 
-adi,soyadi ve email adresini parametre olarak alıp;
-
-########################
-Adı : Örnek
-Soyadı : Örnek
-E-Posta : ornek@ornek.com
-########################
-şeklinde ekrana yazdıran fonksiyonu yazınız.
-e posta adresi girilmesi gerekmediği durumda kullanıcı 
-fonk("Ornek","Ornek") şeklinde fonksiyonu çalıştırabilsin.
+Faktoriyel hesabı yapan bir fonksiyon yazalım 
+fonksiyon sonucu dışarı return deyimi ile göndersin.
+print fonksiyonu ve yazdığımız faktoriyel fonksiyonunu 
+birlikte kullanıp sonucu
+ekrana yazdıralım.
 \"\"\"
 
 """
