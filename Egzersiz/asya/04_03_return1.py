@@ -8,3 +8,14 @@ birlikte kullanıp sonucu
 ekrana yazdıralım.
 """
 
+
+def solution(s):
+    sonuc =""
+     for item in s:
+       if item.isupper():
+           sonuc += " " + item
+       else:
+           sonuc += item
+   return sonuc            
+
+''.join(' ' + c if c.isupper() else c for c in s)        

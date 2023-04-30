@@ -13,3 +13,14 @@ def factorial(n):
         f*=i
     return f
 print(factorial(5))
+
+###
+# def solution(s):
+#     sonuc =""
+#     for item in s:
+#         if item.isupper():
+#             sonuc += " " + item
+#         else:
+#             sonuc += item
+#     return sonuc            
+''.join(' ' + c if c.isupper() else c for c in s)        

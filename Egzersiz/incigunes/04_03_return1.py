@@ -14,13 +14,13 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-print(factorial(5))
+#print(factorial(5))
 
 
 
 
 
-def factorial(n):
+#def factorial(n):
     if n < 0:
         return None
     elif n == 0:
@@ -31,7 +31,19 @@ def factorial(n):
             result *= i
         return result 
 
-print(factorial(5))
+#print(factorial(5))
+
+
+def separate_words(HelloWorld):
+    words = []
+    start = 0
+    for i in range(len(HelloWorld)):
+        if HelloWorld[i].isupper():
+            words.append(HelloWorld[start:i])
+            start = i
+    words.append(HelloWorld[start:])
+    return words
+print(separate_words("HelloWorld"))
 
 
 
