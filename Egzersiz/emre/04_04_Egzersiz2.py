@@ -7,3 +7,15 @@ fonksiyonu yazınız
 Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 """
 
+def tur(a,b):
+    return
+    if a!=b:
+        print("Dikdörtgen")
+    else:
+        print('Kare')
+
+def alan(a,b):
+    return a*b
+
+print(tur(5,7),alan(5,7))
+

@@ -7,3 +7,18 @@ fonksiyonu yazınız
 Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 """
 
+
+a = int(input("a değeri:"))
+b= int(input("b değeri:"))
+
+if a==b:
+    def alan(a,b):
+    return a*b
+print("Gönderilen a b değerleri karenin kenarlardır.Karenin alanı =",alan(6,6))
+
+elif a!=b:
+    def alan(a,b):
+    return a*b
+print("Gönderilen a b değerleri dikdörtgenin kenarlardır.Dikdörtgenin alanı =",alan(6,4))
+
+

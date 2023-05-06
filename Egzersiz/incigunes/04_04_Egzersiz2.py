@@ -6,4 +6,5 @@ ve alanını hesaplaması istenmektedir. Bu işlemi gerçekleştiren
 fonksiyonu yazınız
 Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 """
+def (kenar1, kenar2)
 
