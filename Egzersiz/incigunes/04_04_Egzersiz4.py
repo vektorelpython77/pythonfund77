@@ -1,15 +1,18 @@
 
 """
 parametre olarak gönderilen bir liste içerisindeki 
-tüm çift sayıların toplamını return deyimi ile dönen fonksiyonu 
-yazınız. 
+tüm sayıların çarpımını hesaplayan fonksiyonu yazınız
 Fonksiyonun çıktısını ekrana yazmasını fonksiyonu print
 fonksiyonu içerisinde çalıştırarak sağlayınız
-
+print(fonk(....)) gibi
 """
-def fonk(liste):
-    result=1
+
+def carpim(liste):
+    
+    result = 1
     for item in liste:
-        result*=item
+        result *= item
     return result
-print(fonk([1,2,3,3,3]))
+
+liste = [1, 2, 3, 4, 5] 
+print(carpim(liste)) 
