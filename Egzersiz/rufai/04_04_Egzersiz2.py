@@ -12,4 +12,14 @@ import random as rnd
 
 yukarıdaki kütüphanelerden faydalanabilirsiniz.
 """
+def find_uniq(arr):
+    
+
+     return n  
+
+print(find_uniq([ 1, 1, 1, 2, 1, 1 ]))
+
+
+
+
 
