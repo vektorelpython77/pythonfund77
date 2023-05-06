@@ -5,17 +5,11 @@ for item in liste:
     with open(f"Egzersiz/{item}/{filename}.py","w+",encoding="UTF-8") as dosya:
         metin = """
 \"\"\"
-istenilen uzunlukta ve aşağıdaki kriterleri sağlayan şifre üreten
+bir dörtgenin iki kenarını parametre olarak alan bir fonksiyonun
+bu dörtgenin kare mi yoksa dikdörtgen mi olduğunu söylemesini 
+ve alanını hesaplaması istenmektedir. Bu işlemi gerçekleştiren 
 fonksiyonu yazınız
-1. en az bir küçük harf olmalıdır
-2. en az bir büyük harf olmalıdır
-3. en az bir rakam olmalıdır
-4. en az bir noktalama işareti olmalıdır
-
-from string import ascii_lowercase,ascii_uppercase,digits,punctuation
-import random as rnd
-
-yukarıdaki kütüphanelerden faydalanabilirsiniz.
+Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 \"\"\"
 
 """
