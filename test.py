@@ -1,5 +1,10 @@
-import os
-liste = os.listdir("Egzersiz/")
-import subprocess
-for item in liste:
-    subprocess.run(("python",f"Egzersiz/{item}/02_02_str.py"))
+from turtle import *
+color('red', 'yellow')
+begin_fill()
+while True:
+    forward(200)
+    left(170)
+    if abs(pos()) < 1:
+        break
+end_fill()
+done()
