@@ -1,15 +1,16 @@
 import os
-filename = "04_04_Egzersiz2"
+filename = "04_04_Egzersiz3"
 liste = os.listdir("Egzersiz/")
 for item in liste:
     with open(f"Egzersiz/{item}/{filename}.py","w+",encoding="UTF-8") as dosya:
         metin = """
 \"\"\"
-bir dörtgenin iki kenarını parametre olarak alan bir fonksiyonun
-bu dörtgenin kare mi yoksa dikdörtgen mi olduğunu söylemesini 
-ve alanını hesaplaması istenmektedir. Bu işlemi gerçekleştiren 
-fonksiyonu yazınız
-Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
+parametre olarak gönderilen bir liste içerisindeki 
+tüm çift sayıların toplamını return deyimi ile dönen fonksiyonu 
+yazınız. 
+Fonksiyonun çıktısını ekrana yazmasını fonksiyonu print
+fonksiyonu içerisinde çalıştırarak sağlayınız
+print(fonk(....)) gibi
 \"\"\"
 
 """

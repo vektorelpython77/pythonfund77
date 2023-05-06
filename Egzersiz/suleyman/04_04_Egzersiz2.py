@@ -7,10 +7,9 @@ fonksiyonu yazınız
 Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 """
 
-def sekil(a,b):
-    return a*b
 
-    if a>b or b>a:
-print("Dikdortgenin Alanı:",sekil(3,4))
-else:
-    print("Karenin Alanı:",sekil(3,4))
+def dortgen(a,b):
+    alan = a*b
+    return f"{'Kare' if a==b else 'Dikdörtgen'} in alanı {alan} cm2"
+
+print(dortgen(5,4))

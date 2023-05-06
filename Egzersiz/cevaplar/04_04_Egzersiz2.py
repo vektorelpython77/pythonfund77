@@ -7,3 +7,9 @@ fonksiyonu yazınız
 Örnek Çıktı: Dikdörtgenin Alanı: 12 cm2
 """
 
+
+def dortgen(a,b):
+    alan = a*b
+    return f"{'Kare' if a==b else 'Dikdörtgen'} in alanı {alan} cm2"
+
+print(dortgen(5,4))
