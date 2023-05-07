@@ -32,3 +32,5 @@ isimListe.sort() # ['Ali', 'Ayşe', 'Ceren', 'Kamil', 'Sevim', 'Çiğdem', 'Şer
 print(isimListe)
 print(sorted(isimListe,key=fonk)) 
 # ['Ali', 'Ayşe', 'Ceren', 'Çiğdem', 'Kamil', 'Sevim', 'Şermin']
+
+
