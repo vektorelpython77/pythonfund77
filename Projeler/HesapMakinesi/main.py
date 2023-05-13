@@ -47,9 +47,9 @@ def main():
                     print("Yanlış Giriş")
                     time.sleep(3)
                     os.system('cls' if os.name == 'nt' else 'clear')
-    except:
-        print("Genel Hata")
-        
+    except Exception as hata:
+        print("Genel Hata",hata)
+
 
 if __name__ == '__main__':
     main()
