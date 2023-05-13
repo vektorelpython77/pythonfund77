@@ -32,6 +32,6 @@ xb,xb+
 Denemeler
 """
 ################# 1.
-dosya = open("Projeler\Dosyalamaİslemleri\ornek.txt",encoding="UTF-8")
+dosya = open("Projeler\Dosyalamaİslemleri\ornek.txt","r",encoding="UTF-8")
 # hiç bir bilgi yazmazsak okuma modunda açar
-print(dosya.read())
+# print(dosya.read())
