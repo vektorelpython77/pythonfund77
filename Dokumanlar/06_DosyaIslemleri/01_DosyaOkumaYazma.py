@@ -32,6 +32,11 @@ xb,xb+
 Denemeler
 """
 ################# 1.
-# dosya = open("Projeler\Dosyalamaİslemleri\ornek.txt","r",encoding="UTF-8")
-# hiç bir bilgi yazmazsak okuma modunda açar
-# print(dosya.read())
+adres = "Projeler\Dosyalamaİslemleri\ornek.csv"
+kip="r+"
+dosya = open(adres,kip,encoding="UTF-8")
+bilgi = "Ali;Veli;123\n"
+# for i in range(8):
+#     dosya.write(bilgi)
+print("1",dosya.read())
+# print("2",dosya.read())
