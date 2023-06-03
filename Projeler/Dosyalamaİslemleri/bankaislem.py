@@ -6,7 +6,7 @@
 5. Hesap Aç/Kapat
 5. Çıkış
 """
-
+asasa
 # https://codeshare.io/gLlKK8
 ####################################################################
 hesapListe = [] # global değişken
