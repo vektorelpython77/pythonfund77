@@ -1,3 +1,7 @@
 
-x=[i for i range(8,101)]
-r
+class deneme:
+    def __init__(self) -> None:
+        print("Kedi")
+
+deneme.self()
+

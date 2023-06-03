@@ -1,3 +1,4 @@
+
 """
 1. Para Çekme
 2. Para Yatırma
@@ -6,7 +7,7 @@
 5. Hesap Aç/Kapat
 5. Çıkış
 """
-asasa
+
 # https://codeshare.io/gLlKK8
 ####################################################################
 hesapListe = [] # global değişken
