@@ -8,4 +8,11 @@ Yazılımcı olarak bu numaranın tüm sınıflarda olmasını sağlayacak
 durumu yazınız.
 
 """
-
+from abc import 
+class Şarkuteri:
+    def __init__(self,sucuk,jambon,pastırma)
+        self.sucuk = sucuk
+        self.jambon = jambon
+        self.pastırma = pastırma
+    
+class UrunID(Şarkuteri):
