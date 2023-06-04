@@ -26,16 +26,24 @@ class A:
                 raise Exception("Değer Hatası")
         else:
             raise Exception("Yetki Hatası")
+        
+    @gizli.deleter
+    def gizli(self):
+        self.__gizli *= -1
 
     def method(self):
         return self.a
     
 
-try:
+try: 
     obj1 = A(1)
     obj2 = A(2)
     print(obj1.gizli)
-    obj2.gizli = 25
+    obj1.gizli = 25
+    print(obj1.gizli)
+    del obj1.gizli
     print(obj1.gizli)
 except Exception as hata:
     print(hata)
+
+
