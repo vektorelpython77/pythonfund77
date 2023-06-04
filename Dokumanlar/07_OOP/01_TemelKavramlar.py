@@ -35,12 +35,14 @@ kedi1 = Kedi("Misket") # instance Object Nesne
 kedi2 = Kedi("Boncuk") # instance Object Nesne
 kedi1.beslenme()
 kedi1.beslendimi()
-kedi2.beslendimi() 
+kedi2.beslendimi()
+
+# https://codeshare.io/78zzko
 
 
 """
 02_Inheritance ==> Kalıtım
 03_Polymorphism ==> Çok Biçimlilik
-04_Encapsulation ==> Kapsülleme
-05_Abstraction ==> Soyutlama
+05_Encapsulation ==> Kapsülleme
+06_Abstraction ==> Soyutlama
 """
